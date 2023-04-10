@@ -1,0 +1,67 @@
+﻿@*@model PersonalSiteConversion.Models.ContactViewModel
+
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Contact</h2>
+            <p>Contact Me</p>
+        </div>
+
+        <div class="row mt-2">
+
+            <div class="col-md-6 mt-4 d-flex align-items-stretch">
+                <div class="info-box">
+                    <i class="bx bx-share-alt"></i>
+                    <h3>Connect with me on LinkedIn</h3>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/willmarch" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mt-4 d-flex align-items-stretch">
+                <div class="info-box">
+                    <i class="bx bx-envelope"></i>
+                    <h3>Email Me</h3>
+                    <p>willmarch11@hotmail.com</p>
+                </div>
+            </div>
+
+            <form asp-action="Contact" class="php-email-form mt-4">
+                <p>Please reach out to me by filling out the form below!</p>
+                
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                        <input asp-for="Name" class="form-control" placeholder="Your Name">
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                        <input asp-for="Email" class="form-control" placeholder="Your Email">
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group mt-3">
+                    <input asp-for="Subject" class="form-control" placeholder="Subject">
+                    <span asp-validation-for="Subject" class="text-danger"></span>
+                </div>
+                <div class="form-group mt-3">
+                    <textarea asp-for="Message" class="form-control" rows="5" placeholder="Message"></textarea>
+                    <span asp-validation-for="Message" class="text-danger"></span>
+                </div>
+                <div class="form-group mt-3 text-center">
+                    <input type="submit" value="Send Message" class="btn btn-primary">
+                </div>
+            </form>
+        </div>
+
+    </div>
+</section><!-- End Contact Section -->
+    
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+*@

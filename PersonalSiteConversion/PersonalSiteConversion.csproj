@@ -1,0 +1,163 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\assets\css\style.css" />
+    <Content Remove="wwwroot\assets\img\apple-touch-icon.png" />
+    <Content Remove="wwwroot\assets\img\brodi.jpg" />
+    <Content Remove="wwwroot\assets\img\efrain.jpg" />
+    <Content Remove="wwwroot\assets\img\favicon.png" />
+    <Content Remove="wwwroot\assets\img\jared.png" />
+    <Content Remove="wwwroot\assets\img\jason.jpg" />
+    <Content Remove="wwwroot\assets\img\kellan.jpeg" />
+    <Content Remove="wwwroot\assets\img\luke.jpeg" />
+    <Content Remove="wwwroot\assets\img\mekcbg.png" />
+    <Content Remove="wwwroot\assets\img\nophoto.webp" />
+    <Content Remove="wwwroot\assets\img\pic of me (3).jpeg" />
+    <Content Remove="wwwroot\assets\img\pic of me.jpeg" />
+    <Content Remove="wwwroot\assets\img\startscreen.png" />
+    <Content Remove="wwwroot\assets\img\steve.jpg" />
+    <Content Remove="wwwroot\assets\img\tanner.jpg" />
+    <Content Remove="wwwroot\assets\js\main.js" />
+    <Content Remove="wwwroot\assets\vendor\bootstrap-icons\bootstrap-icons.css" />
+    <Content Remove="wwwroot\assets\vendor\bootstrap-icons\fonts\bootstrap-icons.woff" />
+    <Content Remove="wwwroot\assets\vendor\bootstrap-icons\fonts\bootstrap-icons.woff2" />
+    <Content Remove="wwwroot\assets\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Remove="wwwroot\assets\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Remove="wwwroot\assets\vendor\boxicons\css\animations.css" />
+    <Content Remove="wwwroot\assets\vendor\boxicons\css\boxicons.css" />
+    <Content Remove="wwwroot\assets\vendor\boxicons\css\boxicons.min.css" />
+    <Content Remove="wwwroot\assets\vendor\boxicons\css\transformations.css" />
+    <Content Remove="wwwroot\assets\vendor\boxicons\fonts\boxicons.eot" />
+    <Content Remove="wwwroot\assets\vendor\boxicons\fonts\boxicons.svg" />
+    <Content Remove="wwwroot\assets\vendor\boxicons\fonts\boxicons.ttf" />
+    <Content Remove="wwwroot\assets\vendor\boxicons\fonts\boxicons.woff" />
+    <Content Remove="wwwroot\assets\vendor\boxicons\fonts\boxicons.woff2" />
+    <Content Remove="wwwroot\assets\vendor\glightbox\css\glightbox.css" />
+    <Content Remove="wwwroot\assets\vendor\glightbox\css\glightbox.min.css" />
+    <Content Remove="wwwroot\assets\vendor\glightbox\css\plyr.css" />
+    <Content Remove="wwwroot\assets\vendor\glightbox\css\plyr.min.css" />
+    <Content Remove="wwwroot\assets\vendor\glightbox\js\glightbox.js" />
+    <Content Remove="wwwroot\assets\vendor\glightbox\js\glightbox.min.js" />
+    <Content Remove="wwwroot\assets\vendor\isotope-layout\isotope.pkgd.js" />
+    <Content Remove="wwwroot\assets\vendor\isotope-layout\isotope.pkgd.min.js" />
+    <Content Remove="wwwroot\assets\vendor\php-email-form\validate.js" />
+    <Content Remove="wwwroot\assets\vendor\purecounter\purecounter_vanilla.js" />
+    <Content Remove="wwwroot\assets\vendor\remixicon\remixicon.css" />
+    <Content Remove="wwwroot\assets\vendor\remixicon\remixicon.eot" />
+    <Content Remove="wwwroot\assets\vendor\remixicon\remixicon.less" />
+    <Content Remove="wwwroot\assets\vendor\remixicon\remixicon.svg" />
+    <Content Remove="wwwroot\assets\vendor\remixicon\remixicon.symbol.svg" />
+    <Content Remove="wwwroot\assets\vendor\remixicon\remixicon.ttf" />
+    <Content Remove="wwwroot\assets\vendor\remixicon\remixicon.woff" />
+    <Content Remove="wwwroot\assets\vendor\remixicon\remixicon.woff2" />
+    <Content Remove="wwwroot\assets\vendor\swiper\swiper-bundle.min.css" />
+    <Content Remove="wwwroot\assets\vendor\swiper\swiper-bundle.min.js" />
+    <Content Remove="wwwroot\assets\vendor\waypoints\noframework.waypoints.js" />
+    <Content Remove="wwwroot\forms\contact.php" />
+    <Content Remove="wwwroot\forms\Readme.txt" />
+    <Content Remove="wwwroot\forms\Will March - FINAL Resume IT.pdf" />
+    <Content Remove="wwwroot\index.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\css\style.css" />
+    <None Include="wwwroot\assets\img\apple-touch-icon.png" />
+    <None Include="wwwroot\assets\img\brodi.jpg" />
+    <None Include="wwwroot\assets\img\efrain.jpg" />
+    <None Include="wwwroot\assets\img\favicon.png" />
+    <None Include="wwwroot\assets\img\jared.png" />
+    <None Include="wwwroot\assets\img\jason.jpg" />
+    <None Include="wwwroot\assets\img\kellan.jpeg" />
+    <None Include="wwwroot\assets\img\luke.jpeg" />
+    <None Include="wwwroot\assets\img\mekcbg.png" />
+    <None Include="wwwroot\assets\img\nophoto.webp" />
+    <None Include="wwwroot\assets\img\pic of me (3).jpeg" />
+    <None Include="wwwroot\assets\img\pic of me.jpeg" />
+    <None Include="wwwroot\assets\img\startscreen.png" />
+    <None Include="wwwroot\assets\img\steve.jpg" />
+    <None Include="wwwroot\assets\img\tanner.jpg" />
+    <None Include="wwwroot\assets\js\main.js" />
+    <None Include="wwwroot\assets\vendor\bootstrap-icons\bootstrap-icons.css" />
+    <None Include="wwwroot\assets\vendor\bootstrap-icons\fonts\bootstrap-icons.woff" />
+    <None Include="wwwroot\assets\vendor\bootstrap-icons\fonts\bootstrap-icons.woff2" />
+    <None Include="wwwroot\assets\vendor\bootstrap\css\bootstrap.min.css" />
+    <None Include="wwwroot\assets\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\assets\vendor\boxicons\css\animations.css" />
+    <None Include="wwwroot\assets\vendor\boxicons\css\boxicons.css" />
+    <None Include="wwwroot\assets\vendor\boxicons\css\boxicons.min.css" />
+    <None Include="wwwroot\assets\vendor\boxicons\css\transformations.css" />
+    <None Include="wwwroot\assets\vendor\boxicons\fonts\boxicons.eot" />
+    <None Include="wwwroot\assets\vendor\boxicons\fonts\boxicons.svg" />
+    <None Include="wwwroot\assets\vendor\boxicons\fonts\boxicons.ttf" />
+    <None Include="wwwroot\assets\vendor\boxicons\fonts\boxicons.woff" />
+    <None Include="wwwroot\assets\vendor\boxicons\fonts\boxicons.woff2" />
+    <None Include="wwwroot\assets\vendor\glightbox\css\glightbox.css" />
+    <None Include="wwwroot\assets\vendor\glightbox\css\glightbox.min.css" />
+    <None Include="wwwroot\assets\vendor\glightbox\css\plyr.css" />
+    <None Include="wwwroot\assets\vendor\glightbox\css\plyr.min.css" />
+    <None Include="wwwroot\assets\vendor\glightbox\js\glightbox.js" />
+    <None Include="wwwroot\assets\vendor\glightbox\js\glightbox.min.js" />
+    <None Include="wwwroot\assets\vendor\isotope-layout\isotope.pkgd.js" />
+    <None Include="wwwroot\assets\vendor\isotope-layout\isotope.pkgd.min.js" />
+    <None Include="wwwroot\assets\vendor\php-email-form\validate.js" />
+    <None Include="wwwroot\assets\vendor\purecounter\purecounter_vanilla.js" />
+    <None Include="wwwroot\assets\vendor\remixicon\remixicon.css" />
+    <None Include="wwwroot\assets\vendor\remixicon\remixicon.eot" />
+    <None Include="wwwroot\assets\vendor\remixicon\remixicon.less" />
+    <None Include="wwwroot\assets\vendor\remixicon\remixicon.svg" />
+    <None Include="wwwroot\assets\vendor\remixicon\remixicon.symbol.svg" />
+    <None Include="wwwroot\assets\vendor\remixicon\remixicon.ttf" />
+    <None Include="wwwroot\assets\vendor\remixicon\remixicon.woff" />
+    <None Include="wwwroot\assets\vendor\remixicon\remixicon.woff2" />
+    <None Include="wwwroot\assets\vendor\swiper\swiper-bundle.min.css" />
+    <None Include="wwwroot\assets\vendor\swiper\swiper-bundle.min.js" />
+    <None Include="wwwroot\assets\vendor\waypoints\noframework.waypoints.js" />
+    <None Include="wwwroot\forms\contact.php" />
+    <None Include="wwwroot\forms\Readme.txt" />
+    <None Include="wwwroot\forms\Will March - FINAL Resume IT.pdf" />
+    <None Include="wwwroot\index.html" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\LICENSE" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\LICENSE.md" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
+    <PackageReference Include="NETCore.MailKit" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\assets\vendor\bootstrap-icons\bootstrap-icons.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
